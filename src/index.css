@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* @font-face {
+  font-family: 'KalamehWeb_Black';
+  src: local('KalamehWeb_Black'),
+    url(./Fonts/KalamehWeb_Black.ttf) format('truetype');
+  font-family: 'KalamehWeb_Bold';
+  src: local('KalamehWeb_Bold'),
+    url(./Fonts/KalamehWeb_Bold.ttf) format('truetype');
+  font-family: 'KALAMEH-REGULAR';
+  src: local('KALAMEH-REGULAR'),
+    url(./Fonts/KalamehWeb_Regular.ttf) format('truetype');
+} */
