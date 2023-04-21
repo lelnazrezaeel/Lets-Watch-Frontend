@@ -113,14 +113,6 @@ To remove the Docker image for this project, use the following command:
 docker rmi front-end-dev-image
 ```
 
-## Removing the Docker Image
-
-To remove the Docker image for this project, use the following command:
-
-```
-docker rmi front-end-dev-image
-```
-
 ## Removing the Docker Container
 
 To remove a Docker container, use the following command:
