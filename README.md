@@ -142,7 +142,7 @@ The `docker-compose` command is used to manage Docker Compose applications, whic
 To start a Compose application with an alternate Compose file, in detached mode, and (re)build the images before starting the containers, use the following command:
 
 ```
-docker-compose -f <docker-compose-dev.yml> up -d --build
+docker-compose -f docker-compose-dev.yml up -d --build
 ```
 
 ## Stopping with an Alternate Compose File
@@ -150,7 +150,7 @@ docker-compose -f <docker-compose-dev.yml> up -d --build
 To stop a Compose application with an alternate Compose file, use the following command:
 
 ```
-docker-compose -f <docker-compose-dev.yml> down
+docker-compose -f docker-compose-dev.yml down
 ```
 
 ## Viewing Logs with an Alternate Compose File
@@ -158,5 +158,5 @@ docker-compose -f <docker-compose-dev.yml> down
 To view the logs of a Compose application with an alternate Compose file, use the following command:
 
 ```
-docker-compose -f <docker-compose-dev.yml> logs
+docker-compose -f docker-compose-dev.yml logs
 ```
