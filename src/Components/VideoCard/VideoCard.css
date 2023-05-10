@@ -1,0 +1,41 @@
+.homepage-card{
+    border-radius: 20px !important;
+    background-color: #cbc9f3 !important;
+    transition: all 0.2s ease-in-out !important;
+    text-decoration: none;
+}
+.homepage-card:hover {
+    box-shadow: 0 5px 15px #1c102566;
+}
+.card-header{
+    color: #1b1858!important;
+}
+.card-chips{
+    background-color: #aeabf5 !important;
+    color: #646287 !important;
+    border-radius: 16px !important;
+}
+.card-action{
+    padding: 16px !important;
+    justify-content: flex-end !important;
+}
+.card-button {
+    text-decoration: none;
+    color: #646287;
+    background-color: #aeabf5;
+    padding: 15px 40px;
+    border-radius: 16px;
+    border: none;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-button:hover {
+    color: #22152c66;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0 5px 15px #442a5766;
+}

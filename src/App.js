@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import * as React from 'react';
+// Pages
+import HomePage from './Pages/HomePage/HomePage'
 // Theme
 import { ThemeProvider } from '@mui/material/styles'
 import { theme } from './Theme/ThemeGenerator'
@@ -16,7 +19,7 @@ function App() {
           <div>
             <Routes>
               //Routes
-              //<Route path='/Login' element={<Login/>} />
+              //<Route path='/' element={<HomePage/>} />
             </Routes>
           </div>
         </BrowserRouter>
