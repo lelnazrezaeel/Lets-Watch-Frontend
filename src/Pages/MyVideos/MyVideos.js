@@ -1,7 +1,7 @@
 import React from "react";
-import "./HomePage.css";
+import "./MyVideos.css";
 import { Grid } from "@mui/material";
-import VideoCard from "../../Components/VideoCard/VideoCard";
+import VideoCard from "../../Components/MyVideosCard/MyVideosCard";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
@@ -15,7 +15,7 @@ const Item = styled(Paper)(({ theme }) => ({
   color: theme.palette.text.secondary,
 }));
 
-function HomePage() {
+function MyVideos() {
   return (
     <div>
       <Navbar
@@ -65,4 +65,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default MyVideos;
