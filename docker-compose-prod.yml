@@ -1,11 +1,13 @@
 version: "3.8"
 
 services:
-  react-app:
-    container_name: front-end-prod-container
-    image: front-end-prod-image
+  frontend:
+    container_name: tracer-frontend-prod
+    image: tracer-frontend-prod
     build: 
       context: .
-      dockerfile: Dockerfile.prod
-    ports:
-      - "80:80"
+      dockerfile: Dockerfile
+    env_file:
+      - config/env/.env
+    prots:
+      - "8080:8080"

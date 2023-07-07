@@ -1,0 +1,22 @@
+version: "3.8"
+
+networks:
+  traefik:
+    external: true
+
+services:
+  frontend:
+    container_name: letswatch-frontend
+    image: letswatch-frontend
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.frontend.rule=Host(`letswatch.ir`)"
+      - "traefik.http.routers.frontend.entrypoints=websecure"
+      - "traefik.http.services.frontend.loadbalancer.server.port=8080"
+      - "traefik.http.routers.frontend.tls=true"
+      - "traefik.http.routers.frontend.tls.certresolver=production"

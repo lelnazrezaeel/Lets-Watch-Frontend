@@ -1,6 +1,17 @@
+# project
+README.md
+nginx
+
+# node
 node_modules
+
+# Docker 
+.dockerignore
 Dockerfile
+Dockerfile.dev
+docker-compose.yml
+docker-compose-dev.yml
+
+# git
 .git
 .gitignore
-.dockerignore
-.env
