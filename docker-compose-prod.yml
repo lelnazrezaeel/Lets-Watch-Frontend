@@ -1,11 +1,13 @@
 version: "3.8"
 
 services:
-  react-app:
-    container_name: front-end-prod-container
-    image: front-end-prod-image
+  frontend:
+    container_name: letswatch-frontend-prod
+    image: letswatch-frontend-prod
     build: 
       context: .
-      dockerfile: Dockerfile.prod
-    ports:
+      dockerfile: Dockerfile
+    env_file:
+      - config/env/.env
+    prots:
       - "80:80"

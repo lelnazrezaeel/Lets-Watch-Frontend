@@ -1,12 +1,14 @@
 version: "3.8"
 
 services:
-  react-app:
-    container_name: front-end-dev-container
-    image: front-end-dev-image
+  frontend:
+    image: letswatch-frontend-dev
+    container_name: tracer-frontend-dev
     build: 
       context: .
       dockerfile: Dockerfile.dev
+    env_file:
+      - config/env/dev.env
     ports:
       - "3000:3000"
     volumes:
