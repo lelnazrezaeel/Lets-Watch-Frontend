@@ -15,8 +15,8 @@ services:
       - traefik
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.frontend.rule=Host(`letswatch.ir`)"
-      - "traefik.http.routers.frontend.entrypoints=websecure"
-      - "traefik.http.services.frontend.loadbalancer.server.port=8080"
-      - "traefik.http.routers.frontend.tls=true"
-      - "traefik.http.routers.frontend.tls.certresolver=production"
+      - "traefik.http.routers.letswatch-frontend.rule=Host(`letswatch.ir`)"
+      - "traefik.http.routers.letswatch-frontend.entrypoints=websecure"
+      - "traefik.http.services.letswatch-frontend.loadbalancer.server.port=8080"
+      - "traefik.http.routers.letswatch-frontend.tls=true"
+      - "traefik.http.routers.letswatch-frontend.tls.certresolver=production"
