@@ -1,10 +1,4 @@
 import './App.css';
-<<<<<<< HEAD
-
-function App() {
-  return (
-  <p>Version 0.0.1 of front-end</p>
-=======
 import * as React from 'react';
 // Pages
 import HomePage from './Pages/HomePage/HomePage'
@@ -37,7 +31,6 @@ function App() {
         </BrowserRouter>
       </React.Fragment>
     </ThemeProvider>
->>>>>>> master
   );
 }
 

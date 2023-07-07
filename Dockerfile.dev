@@ -1,13 +1,7 @@
-<<<<<<< HEAD
 FROM node:18-alpine
 WORKDIR /app
 COPY package.json .
 RUN npm config set legacy-peer-deps true
-=======
-FROM node:alpine
-WORKDIR /app
-COPY package.json .
->>>>>>> master
 RUN npm install
 COPY . .
 EXPOSE 3000

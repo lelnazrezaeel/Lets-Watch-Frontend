@@ -1,10 +1,9 @@
 version: "3.8"
 
 services:
-<<<<<<< HEAD
   frontend:
-    container_name: tracer-frontend-prod
-    image: tracer-frontend-prod
+    container_name: letswatch-frontend-prod
+    image: letswatch-frontend-prod
     build: 
       context: .
       dockerfile: Dockerfile
@@ -12,13 +11,3 @@ services:
       - config/env/.env
     prots:
       - "8080:8080"
-=======
-  react-app:
-    container_name: front-end-prod-container
-    image: front-end-prod-image
-    build: 
-      context: .
-      dockerfile: Dockerfile.prod
-    ports:
-      - "80:80"
->>>>>>> master
