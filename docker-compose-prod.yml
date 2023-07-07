@@ -10,4 +10,4 @@ services:
     env_file:
       - config/env/.env
     prots:
-      - "8080:8080"
+      - "80:80"
