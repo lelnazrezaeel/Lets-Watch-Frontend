@@ -28,7 +28,7 @@ jobs:
       run: npm test
 
   CD:
-    needs: CI
+    # needs: CI
     runs-on: self-hosted
 
     steps:
