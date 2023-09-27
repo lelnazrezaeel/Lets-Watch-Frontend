@@ -23,7 +23,7 @@ Let's Watch is an innovative online learning platform developed with React and C
 - Description: The platform offers a user-friendly homepage for easy navigation and access to various features.
 - Benefits: The homepage serves as the gateway to all platform functionalities, making it convenient for users.
 
-## Focus on Testing and Docker
+## <img width="50" height="50" src="https://img.icons8.com/ios/50/41b883/square-border.png" alt="square-border"/> Focus on Testing and Docker
 
 - Testing: The project places a strong emphasis on testing, ensuring that each page and feature functions smoothly and reliably.
 - Docker: Docker is utilized to containerize the application, making deployment and scaling a breeze while maintaining consistency across different environments.
